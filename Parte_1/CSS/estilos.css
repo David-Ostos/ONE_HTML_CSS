@@ -2,10 +2,22 @@ body{
     background: rgba(238, 238, 141, 0.486);
 }
 
+#banner{
+
+    width: 100%;
+}
+
 
 h1{
     background: #cccccc;
     text-align: center;
+
+    /*
+    height: 150px; // esta es la altura se puede colorcar en pixeles como esta aqui
+    border: 10px solid #99ffcc; // aqui se pone el borde y se define el tamaño y el color de ser el caso.
+    padding: 20px; // este es el margen interno que va a tener el area
+    margin: 40px; // este es el margen externo que va a tener el area
+    */
 }
 
 p{
@@ -13,15 +25,15 @@ p{
     text-align: center;
 }
 
-#parrafo_2 strong{
-
-    color: red;
-}
-
 #parrafo_1{
     
     font-size: 16px;
     
+}
+
+#parrafo_2 strong{
+
+    color: red;
 }
 
 
