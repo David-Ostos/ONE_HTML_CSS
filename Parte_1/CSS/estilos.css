@@ -1,14 +1,20 @@
-body{
-    background: rgba(238, 238, 141, 0.486);
-}
+/*body{
+}*/
+
 
 #banner{
 
     width: 100%;
 }
 
+.principal{
+
+    background: rgba(238, 238, 141, 0.486);
+
+}
+
 h1{
-    background: #cccccc;
+    
     text-align: center;
 
     /*
@@ -47,4 +53,18 @@ p{
 
     font-size: 16px;
     
+}
+
+.Diferenciales{
+
+    background: #ffffff;
+}
+
+h2{
+    text-align: center;
+}
+
+.items{
+
+    font-style: italic;
 }
