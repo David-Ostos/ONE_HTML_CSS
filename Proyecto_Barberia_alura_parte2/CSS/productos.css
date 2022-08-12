@@ -35,3 +35,37 @@ nav a{
      text-decoration: none; /* ppara alterar las decoraciones en este caso para quitarle el subrayado de los vinculos*/
 
 }
+
+.caja2 {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+   
+}
+
+.productos {
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.productos h2{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+
+    font-size: 18px;
+}
+
+.producto-precio{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
