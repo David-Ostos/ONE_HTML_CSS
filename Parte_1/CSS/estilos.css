@@ -3,6 +3,13 @@
 }
 */
 
+#encabezados{
+    
+    padding-left: 30px;
+    
+    
+}
+
 #banner{
 
     width: 100%;
@@ -14,7 +21,7 @@
 }
 
 
-h1{
+.titulo-cent{
    
     text-align: center;
 
@@ -60,11 +67,6 @@ p{
 
     background: #ffffff;
     padding: 30px;
-}
-
-h2{
-
-    text-align: center;
 }
 
 .items{
