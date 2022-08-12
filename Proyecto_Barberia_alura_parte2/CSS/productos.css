@@ -1,12 +1,29 @@
 #Encabezado{
-    background-color: #bbbbbb
+    background-color: #bbbbbb;
+    padding: 20px 0; /* es el espaciador externo*/
 
+}
+
+.caja{
+
+    position: relative; /* se pone relative porque esta en conjunto con un objeto que es absoluto y se coloca relavite para que no choque */
+    width: 75%; /* este es el tamaño del ancho que generalmente las pantallas son de 1200 px y se pone esto para que sea aprox 70%*/
+    margin: 0 auto;
+}
+
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right: 50px;
 }
 
 nav li{
 
     display: inline;
     margin: 0 0 0 15px; /*margin agarra 4 valores "1 primero arriba" "2 segundo derecha" "3 tercero abajo"  " 4 cuarto izquierda"*/
+    
 }
 
 nav a{
