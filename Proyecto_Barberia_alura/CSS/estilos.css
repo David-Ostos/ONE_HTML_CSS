@@ -3,6 +3,16 @@
 }
 */
 
+
+
+#encabezados{
+    
+    padding-left: 30px;
+    
+    
+}
+
+
 #banner{
 
     width: 100%;
@@ -14,8 +24,9 @@
 }
 
 
-h1{
-   
+
+.encabezados{
+
     text-align: center;
 
     /*
@@ -24,6 +35,11 @@ h1{
     padding: 20px; // este es el margen interno que va a tener el area
     margin: 40px; // este es el margen externo que va a tener el area
     */
+}
+
+.titulo-cent{
+
+    text-align: center;
 }
 
 p{
@@ -62,10 +78,6 @@ p{
     padding: 30px;
 }
 
-h2{
-
-    text-align: center;
-}
 
 .items{
     font-style: italic;
