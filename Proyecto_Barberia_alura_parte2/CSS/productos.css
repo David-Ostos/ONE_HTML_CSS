@@ -1,4 +1,20 @@
 #Encabezado{
-    background: #cccccc;
-    
+    background-color: #bbbbbb
+
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15px; /*margin agarra 4 valores "1 primero arriba" "2 segundo derecha" "3 tercero abajo"  " 4 cuarto izquierda"*/
+}
+
+nav a{
+
+     text-transform: uppercase; /* para ponerle el formato de mayusculas a las letras*/
+     color: #000000;
+     font-weight: bold; /* para colocar negritas*/
+     font-size: 22px;/* para el tamaño del texto*/
+     text-decoration: none; /* ppara alterar las decoraciones en este caso para quitarle el subrayado de los vinculos*/
+
 }
