@@ -38,7 +38,7 @@ nav a{
 
 .caja2 {
 
-    width: 80%;
+    width: 940px;
     margin: 0 auto;
     padding: 50px;
    
@@ -50,6 +50,11 @@ nav a{
     text-align: center;
     width: 30%;
     vertical-align: top;
+   /* background-color: #cccccc ; || se utiliza para ver mejor como esta distribuido el espacio*/
+    margin: 0 1.5%; /* este margen es para separar entre productos */
+    padding: 30px 20px; /* esto es para poder separar los elementos internos y que queden uniforme*/
+    box-sizing: border-box; /* se utiliza para que la pagina no tenga problema con sobrepasar los limites de area previamente asignado*/
+
 }
 
 .productos h2{
