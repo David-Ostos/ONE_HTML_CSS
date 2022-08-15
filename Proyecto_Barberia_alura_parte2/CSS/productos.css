@@ -110,3 +110,12 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+
+    text-align: center;
+    background:url(https://i.imgur.com/Wx1wHxi.jpg);
+    color: #ffffff;
+    padding: 40px;
+    font-size: 20px;
+}
