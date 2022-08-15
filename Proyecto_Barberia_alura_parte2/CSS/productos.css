@@ -115,7 +115,13 @@ footer{
 
     text-align: center;
     background:url(https://i.imgur.com/Wx1wHxi.jpg);
-    color: #ffffff;
     padding: 40px;
-    font-size: 20px;
+   
+}
+
+.copyright{
+
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
 }
