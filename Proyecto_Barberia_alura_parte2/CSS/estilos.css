@@ -2,13 +2,59 @@
     background: rgba(238, 238, 141, 0.486);
 }
 */
+#Encabezado{
+    background-color: #bbbbbb;
+    padding: 20px 0; /* es el espaciador externo*/
+    box-sizing: border-box;
+    margin-bottom: 10px;
 
-#encabezados{
-    
-    padding-left: 30px;
-    
+
+}
+
+.titulo{
+
+    text-align: center;
+}
+
+.caja{
+
+    position: relative; /* se pone relative porque esta en conjunto con un objeto que es absoluto y se coloca relavite para que no choque */
+    width: 75%; /* este es el tamaño del ancho que generalmente las pantallas son de 1200 px y se pone esto para que sea aprox 70%*/
+    margin: 0 auto;
+}
+
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
+
+nav .url{
+
+    display:inline;
+    margin: 0 0 0 15px; /*margin agarra 4 valores "1 primero arriba" "2 segundo derecha" "3 tercero abajo"  " 4 cuarto izquierda"*/
     
 }
+
+nav a{
+
+     text-transform: uppercase; /* para ponerle el formato de mayusculas a las letras*/
+     color: #000000;
+     font-weight: bold; /* para colocar negritas*/
+     font-size: 22px;/* para el tamaño del texto*/
+     text-decoration: none; /* ppara alterar las decoraciones en este caso para quitarle el subrayado de los vinculos*/
+
+}
+
+/* el :hover es para capturar el movimiento del  mouse*/
+nav a:hover{
+
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 
 #banner{
 
@@ -18,6 +64,7 @@
 .principal{
     background: #cccccc;
     padding: 20px;
+    margin-top: 20px;
 }
 
 
@@ -73,7 +120,7 @@ p{
     font-style: italic;
 }
 
-ul{
+#dif{
 
     display: inline-block; /* esta propiedad se utiliza para decirle a la etiqueta que solo ocupe su espacio utilizado*/
     vertical-align: top;/* esta se utiliza para la aliniacion vertical se le indica que se alinie en top arriba*/
@@ -87,4 +134,20 @@ ul{
 
      width: 40%;
      
+}
+
+
+footer{
+
+    text-align: center;
+    background:url(https://i.imgur.com/Wx1wHxi.jpg);
+    padding: 40px;
+   
+}
+
+.copyright{
+
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
 }
