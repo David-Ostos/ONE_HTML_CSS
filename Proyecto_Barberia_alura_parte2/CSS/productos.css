@@ -54,13 +54,20 @@ nav a{
     margin: 0 1.5%; /* este margen es para separar entre productos */
     padding: 30px 20px; /* esto es para poder separar los elementos internos y que queden uniforme*/
     box-sizing: border-box; /* se utiliza para que la pagina no tenga problema con sobrepasar los limites de area previamente asignado*/
-   border: 2px solid #000000; /*para definir el borde con menos lineas primero el grosor del borde, 2do el tipo de borde y 3ro el color*/
-    
+    border: 2px solid #000000; /*para definir el borde con menos lineas primero el grosor del borde, 2do el tipo de borde y 3ro el color*/
+    border-radius: 10px 10px 10px 10px; /*no es necesario poner todos los datos is on iguales pero es para referenciar que de esta manera se puede simplificar el cdigo*/
+
+    /* para definir diferentes tamaños de las diferentes esquinas
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
     
     /*parte del borde 
     border-color: #000000;/* color del borde
     border-width: 2px;/* anchura  
     border-style: solid; /*estilo */
+
 
 }
 
