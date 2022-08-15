@@ -36,6 +36,13 @@ nav a{
 
 }
 
+/* el :hover es para capturar el movimiento del  mouse*/
+nav a:hover{
+
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .caja2 {
 
     width: 940px;
