@@ -43,6 +43,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
+ 
 .caja2 {
 
     width: 940px;
@@ -57,6 +58,7 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
+    
    /* background-color: #cccccc ; || se utiliza para ver mejor como esta distribuido el espacio*/
     margin: 0 1.5%; /* este margen es para separar entre productos */
     padding: 30px 20px; /* esto es para poder separar los elementos internos y que queden uniforme*/
@@ -86,6 +88,7 @@ nav a:hover{
 .productos:active{
 
     border-color: #088c19;
+
 }
 
 .productos h2{
@@ -109,6 +112,7 @@ nav a:hover{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+
 }
 
 footer{
@@ -124,4 +128,5 @@ footer{
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
+
 }
