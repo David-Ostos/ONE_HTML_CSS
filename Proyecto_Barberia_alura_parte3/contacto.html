@@ -11,8 +11,7 @@
 
     </head>
 
-    <body>
-        
+    <body>       
         <header id="Encabezado">
 
             <div class="caja">
@@ -20,13 +19,11 @@
                     <a href="https://imgur.com/JiS4krJ">
 
                         <img id="logo-h" src="https://i.imgur.com/JiS4krJ.png"/>
-
                     </a>
                 </h1> 
 
                 <nav>
                     <ul>
-
                         <li>
                             <a href="index.html">
                                 Home
@@ -42,30 +39,27 @@
                                 Contacto
                             </a>
                         </li>
-
                     </ul>
                 </nav>  
-            </div>
-           
+            </div>  
         </header>
 
         <main>
-            <form action="">
+            <form>
 
                 <label for="nombreapellido">Nombre y Apellido</label>
                 <input type="text" id="nombreapellido" class="input-padron">
 
                 <label for="correoElectronico">Correo Electrónico</label>
-                <input type="text" id="correoElectronico" class="input-padron">
+                <input type="email" id="correoElectronico" class="input-padron">
 
                 <label for="telefono">Teléfono</label>
-                <input type="text" id="telefono" class="input-padron">
+                <input type="tel" id="telefono" class="input-padron">
 
                 <label for="mensaje">Mensaje</label>
                 <textarea name="" id="mensaje" cols="70" rows="10"></textarea>
 
                 <div>
-
                     <p class="titulo-radio">¿Como le gustaria que lo contactemos?</p>
 
                     <label for="radio-email">
@@ -78,16 +72,26 @@
                     
                     <label for="radio-whatsapp"> 
                         <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">Whatsapp
-                    </label>
-                   
+                    </label>                  
                 </div>
+
+               <div>
+                    <p>¿En cual horario prefiere ser atendido?</p>
+                    
+                    <select name="" id="">
+                        <option value="">Mañana</option>
+
+                        <option value="">Tarde</option>
+
+                        <option value="">Noche</option>
+                    </select>
+               </div>
 
                 <label class="checkbox" for=""><input type="checkbox">¿Le gustaria recibir novedades de la Barbería Alura?</label>
 
                 <input type="submit" value="Enviar Formulario">
                 
             </form>
-
         </main>
 
         <footer>
@@ -101,7 +105,5 @@
             <p class="copyright">&copy; Copyright Barbería Alura - 2022</p>
             
         </footer>
-
     </body>
-
 </html>
