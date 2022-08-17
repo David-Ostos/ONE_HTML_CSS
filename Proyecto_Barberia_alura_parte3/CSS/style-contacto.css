@@ -43,8 +43,35 @@ nav a:hover{
     text-decoration: underline;
 }
 
+main{
 
+    width: 940px; /*aqui se le asigno el tamaño del ancho de la pagina donde se va a trabajar suponiendo que el monitor padron tienen 1270px */
+    margin: 0 auto; /*el pimero es para arriba y para abajo y el segundo es para los lados */
+}
 
+form{
+
+    margin: 40px 0px;/*el pimero es para arriba y para abajo y el segundo es para los lados */
+}
+
+form label, form .titulo-radio{
+
+    display: block; /* se poner el contenido en el blocke para qeus e espanda completo y salte de linea*/
+    font-size: 20px;
+    margin: 0 0 10px;/*el pimero es para arriba segundo para la derecha y el tercero para abajo recordando que comienza por arriba y despues va en sentido de las agujas del reloj */
+}
+
+.input-padron, form textarea{ /* se le puede atribuir a varios elementos el mismo estilo serarando en el enunciado por una ","*/
+
+    display: block; /* se poner el contenido en el blocke para qeus e espanda completo y salte de linea*/
+    margin: 0 0 20px; /*el pimero es para arriba segundo para la derecha y el tercero para abajo recordando que comienza por arriba y despues va en sentido de las agujas del reloj */
+    padding: 10px 20px; /* este se utiliza para darle mas tamaño interno a nuestro rectangulo que pide el texto al usuario */
+    width: 50% ;/* se utiliza para asignar el tamaño del campo lateral en este caso se utilizo el 50% */
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
 
 footer{
 
