@@ -76,22 +76,25 @@ form label, form .titulo-radio{
 .enviar {
 
     width: 40%;
-    padding: 15px 0;
+    padding: 15px 0;/* para agrandar el icono*/
     font-size: 18px;
     font-weight: bold;
     color: white;
     background: orange;
-    border: none;
-    border-radius: 5px;
-    transition: 500ms;
-    cursor: pointer;
+    border: none; /* para quitar el borde*/
+    border-radius: 5px; /*para redondear el borde*/
+    transition: 500ms; /*para dar intervalod e tiempo a la transicion*/
+    cursor: pointer; /*para cambiar el cursor a la manito*/
 
 }
 
 .enviar:hover {
 
-    font-size: 20px;
     background: darkorange;
+    transform: scale(1.2); /* para transformar el objeto por completo en este caso para que cambie su tamaño */
+    /*rotate(720deg);*/ /* de la propiedad transform esta funcion es para totar dependiendod e los grados que se le coloque */
+
+    /*NOTA: para ponerve varias funciones a la propiedad transform hay que ponerlas en una mims linea solo con un espacio*/
 }
 
 footer{
