@@ -97,6 +97,25 @@ form label, form .titulo-radio{
     /*NOTA: para ponerve varias funciones a la propiedad transform hay que ponerlas en una mims linea solo con un espacio*/
 }
 
+table{
+
+    margin:40px 5%;
+    width: 30%;
+    
+}
+
+thead{
+
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td , th{
+
+    border: 1px solid #000000 ;
+    padding: 8px 15px;
+}
+
 footer{
 
     text-align: center;
