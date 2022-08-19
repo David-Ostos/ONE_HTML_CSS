@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*<Header>*/
 #Encabezado{
     background-color: #bbbbbb;
@@ -7,11 +11,6 @@
 
 
 }
-
-/*.titulo{
-
-    text-align: center;
-}*/
 
 .caja{
 
@@ -60,11 +59,19 @@ nav a:hover{
     width: 100%;
 }
 
+main{
+
+    width: 63%; /* para declarar el tamaño del elemento*/
+    margin: 0 auto;/* para centrar la pagina en el medio de la parte horizontal*/
+
+}
+
 .titulo-principal{
    
     text-align: center;
     font-size: 2em; /*el "em" es para aumentar x veces el tamaño por defecto en este caso 2 veces porque se utilizo 2em*/
     margin: 1em 0 ;
+    clear: left;/*se utilisa para limpiar lo que este en la posicions eleccionada*/
 
     /*
     height: 150px; // esta es la altura se puede colorcar en pixeles como esta aqui
@@ -73,6 +80,8 @@ nav a:hover{
     margin: 40px; // este es el margen externo que va a tener el area
     */
 }
+
+
 
 .principal p {
 
@@ -108,6 +117,12 @@ nav a:hover{
  
 
 } 
+.utensilios{
+
+    width: 120px;
+    float: left;/* se utiliza para poder hacer que los elementos que se especifiquen se hacerquen al objeto*/
+    margin: 0 20px 20px 0;
+}
 
 #img_diferenciales{
 
