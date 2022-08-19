@@ -1,15 +1,16 @@
-/*body{
-    background: rgba(238, 238, 141, 0.486);
+body{
+    font-family: 'Montserrat', sans-serif;
 }
-*/
+
+/*<Header>*/
 #Encabezado{
     background-color: #bbbbbb;
     padding: 20px 0; /* es el espaciador externo*/
     box-sizing: border-box;
-    margin-bottom: 10px;
-
+   /* margin-bottom: 10px;*/
 
 }
+
 
 .titulo{
 
@@ -56,7 +57,10 @@ nav a:hover{
 }
 
 
-#banner{
+/*<Header/>*/
+
+/*<main>*/
+.banner{
 
     width: 100%;
 }
@@ -68,9 +72,19 @@ nav a:hover{
 }
 
 
-.titulo-cent{
+main{
+
+    width: 63%; /* para declarar el tamaño del elemento*/
+    margin: 0 auto;/* para centrar la pagina en el medio de la parte horizontal*/
+
+}
+
+.titulo-principal{
    
     text-align: center;
+    font-size: 2em; /*el "em" es para aumentar x veces el tamaño por defecto en este caso 2 veces porque se utilizo 2em*/
+    margin: 1em 0 ;
+    clear: left;/*se utilisa para limpiar lo que este en la posicions eleccionada*/
 
     /*
     height: 150px; // esta es la altura se puede colorcar en pixeles como esta aqui
@@ -80,34 +94,20 @@ nav a:hover{
     */
 }
 
-p{
 
-    text-align: center;
+.principal p {
+
+    margin: 0 0 1em;
 }
 
-#parrafo_1{
-    
-    font-size: 16px;
-    
+.principal strong{
+
+    font-weight:bold ;
 }
 
-#parrafo_2 strong{
+.principal em{
 
-    color: red;
-}
-
-
-#parrafo_2{
-
-    font-size: 20px;
-    
-}
-
-
-#parrafo_3{
-
-    font-size: 16px;
-    
+    font-style: italic;
 }
 
 .Diferenciales{
@@ -128,14 +128,40 @@ p{
     margin-right: 15%;
  
 
+
 }
 
+
+.utensilios{
+
+    width: 120px;
+    float: left;/* se utiliza para poder hacer que los elementos que se especifiquen se hacerquen al objeto*/
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+
+padding: 3em 0;
+}
+
+.mapa p{
+    text-align: center;
+    margin: 0 0 3em 0 ;
+}
 #img_diferenciales{
 
      width: 40%;
      
 }
 
+.video{
+
+    width: 50%;
+    margin: 1em auto;
+}
+/*<main/>*/
+
+/*<footer>*/
 
 footer{
 
@@ -150,4 +176,7 @@ footer{
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
+
 }
+
+/*<footer/>*/
