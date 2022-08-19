@@ -124,10 +124,25 @@ main{
     margin: 0 20px 20px 0;
 }
 
+.mapa{
+
+padding: 3em 0;
+}
+
+.mapa p{
+    text-align: center;
+    margin: 0 0 3em 0 ;
+}
 #img_diferenciales{
 
      width: 40%;
      
+}
+
+.video{
+
+    width: 50%;
+    margin: 1em auto;
 }
 /*<main/>*/
 
