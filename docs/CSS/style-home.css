@@ -55,8 +55,6 @@ nav a:hover{
     color: #c78c19;
     text-decoration: underline;
 }
-
-
 /*<Header/>*/
 
 /*<main>*/
@@ -64,13 +62,6 @@ nav a:hover{
 
     width: 100%;
 }
-
-.principal{
-    background: #cccccc;
-    padding: 20px;
-    margin-top: 20px;
-}
-
 
 main{
 
@@ -93,7 +84,6 @@ main{
     margin: 40px; // este es el margen externo que va a tener el area
     */
 }
-
 
 .principal p {
 
@@ -126,11 +116,7 @@ main{
     vertical-align: top;/* esta se utiliza para la aliniacion vertical se le indica que se alinie en top arriba*/
     width: 30%;
     margin-right: 15%;
- 
-
-
 }
-
 
 .utensilios{
 
@@ -156,13 +142,13 @@ padding: 3em 0;
 
 .video{
 
+
     width: 50%;
     margin: 1em auto;
 }
 /*<main/>*/
 
 /*<footer>*/
-
 footer{
 
     text-align: center;
@@ -176,7 +162,6 @@ footer{
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
-
 }
-
 /*<footer/>*/
+
