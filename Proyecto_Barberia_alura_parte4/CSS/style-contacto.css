@@ -1,0 +1,137 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#Encabezado{
+    background-color: #bbbbbb;
+    padding: 20px 0; /* es el espaciador externo*/
+
+}
+
+.caja{
+
+    position: relative; /* se pone relative porque esta en conjunto con un objeto que es absoluto y se coloca relavite para que no choque */
+    width: 75%; /* este es el tamaño del ancho que generalmente las pantallas son de 1200 px y se pone esto para que sea aprox 70%*/
+    margin: 0 auto;
+}
+
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15px; /*margin agarra 4 valores "1 primero arriba" "2 segundo derecha" "3 tercero abajo"  " 4 cuarto izquierda"*/
+    
+}
+
+nav a{
+
+     text-transform: uppercase; /* para ponerle el formato de mayusculas a las letras*/
+     color: #000000;
+     font-weight: bold; /* para colocar negritas*/
+     font-size: 22px;/* para el tamaño del texto*/
+     text-decoration: none; /* ppara alterar las decoraciones en este caso para quitarle el subrayado de los vinculos*/
+
+}
+
+/* el :hover es para capturar el movimiento del  mouse*/
+nav a:hover{
+
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main{
+
+    width: 940px; /*aqui se le asigno el tamaño del ancho de la pagina donde se va a trabajar suponiendo que el monitor padron tienen 1270px */
+    margin: 0 auto; /*el pimero es para arriba y para abajo y el segundo es para los lados */
+}
+
+form{
+
+    margin: 40px 0px;/*el pimero es para arriba y para abajo y el segundo es para los lados */
+}
+
+form label, form .titulo-radio{
+
+    display: block; /* se poner el contenido en el blocke para qeus e espanda completo y salte de linea*/
+    font-size: 20px;
+    margin: 0 0 10px;/*el pimero es para arriba segundo para la derecha y el tercero para abajo recordando que comienza por arriba y despues va en sentido de las agujas del reloj */
+}
+
+.input-padron, form textarea{ /* se le puede atribuir a varios elementos el mismo estilo serarando en el enunciado por una ","*/
+
+    display: block; /* se poner el contenido en el blocke para qeus e espanda completo y salte de linea*/
+    margin: 0 0 20px; /*el pimero es para arriba segundo para la derecha y el tercero para abajo recordando que comienza por arriba y despues va en sentido de las agujas del reloj */
+    padding: 10px 20px; /* este se utiliza para darle mas tamaño interno a nuestro rectangulo que pide el texto al usuario */
+    width: 50% ;/* se utiliza para asignar el tamaño del campo lateral en este caso se utilizo el 50% */
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar {
+
+    width: 40%;
+    padding: 15px 0;/* para agrandar el icono*/
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none; /* para quitar el borde*/
+    border-radius: 5px; /*para redondear el borde*/
+    transition: 500ms; /*para dar intervalod e tiempo a la transicion*/
+    cursor: pointer; /*para cambiar el cursor a la manito*/
+
+}
+
+.enviar:hover {
+
+    background: darkorange;
+    transform: scale(1.2); /* para transformar el objeto por completo en este caso para que cambie su tamaño */
+    /*rotate(720deg);*/ /* de la propiedad transform esta funcion es para totar dependiendod e los grados que se le coloque */
+
+    /*NOTA: para ponerve varias funciones a la propiedad transform hay que ponerlas en una mims linea solo con un espacio*/
+}
+
+table{
+
+    margin:40px 5%;
+    width: 30%;
+    
+}
+
+thead{
+
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td , th{
+
+    border: 1px solid #000000 ;
+    padding: 8px 15px;
+}
+
+footer{
+
+    text-align: center;
+    background:url(https://i.imgur.com/Wx1wHxi.jpg);
+    padding: 40px;
+   
+}
+
+.copyright{
+
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
