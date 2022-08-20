@@ -63,10 +63,10 @@ nav a:hover{
     width: 100%;
 }
 
-main{
-
-    width: 63%; /* para declarar el tamaño del elemento*/
-    margin: 0 auto;/* para centrar la pagina en el medio de la parte horizontal*/
+.principal{
+    
+    background: #fefefe;
+ 
 
 }
 
@@ -107,9 +107,23 @@ main{
     font-style: italic;
 }
 
+.principal-contenido{
+ 
+    width: 63%; /* para declarar el tamaño del elemento*/
+    margin: 0 auto;/* para centrar la pagina en el medio de la parte horizontal*/
+
+}
+
 .mapa{
 
 padding: 3em 0;
+background: linear-gradient(#fefefe, #888888);
+
+/*background: linear-gradient(45deg,white 50%, black 30%, grey 20%);  se utiliza para poder hacer degradado "dato curioso si al principio se le colocan los grados cambia la forma en ves de horizontal al grado anexado (45deg), tamien se puede definir el "%" que ocupe cada color " 
+*/
+/*background: radial-gradient(white 50%, black 30%, grey 20%); este es igual a gradiant pero enformato circular*/
+
+
 }
 
 .mapa p{
@@ -117,10 +131,19 @@ padding: 3em 0;
     margin: 0 0 3em 0 ;
 }
 
+.mapa-contenido{
+
+    width: 63%; /* para declarar el tamaño del elemento*/
+    margin: 0 auto;/* para centrar la pagina en el medio de la parte horizontal*/
+
+}
+
 .Diferenciales{
 
-    background: #ffffff;
+    background: #888888;
     padding: 30px;
+
+
 }
 
 #dif{
@@ -143,7 +166,9 @@ padding: 3em 0;
     line-height: 1.5; /* se utiliza para darle el ancho a la linia proporcial a la font en este caso por que se multiplico por 1.5 es el 50% de la fuente lo que se le sumo a la linea entre texto*/
 }
 
-.items:nth-child(1){
+/*.items:first-child{}  asi se puede definir para modificar al primer elemento de la clase*/
+
+.items:nth-child(1){ /* con este podemos definir el numero del item que queremos alterar con esta funcion, si colocamos una "n" despues del numero modifica los pares */
 
     font-weight: bold;
 }
