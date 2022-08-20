@@ -173,6 +173,11 @@ background: linear-gradient(#fefefe, #888888);
     font-weight: bold;
 }
 
+.items:before{
+    content: "✄ ";
+    font-weight: bold;
+}
+
 #img_diferenciales{
 
      width: 40%;
