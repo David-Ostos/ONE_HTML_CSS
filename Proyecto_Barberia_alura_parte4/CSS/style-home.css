@@ -156,8 +156,8 @@ background: linear-gradient(#fefefe, #888888);
 
 .contenido-dif{
 
-    width: 640px;
-    margin: 0 auto;
+    width: 70%;
+    margin: 0 auto 6em auto;
 
 }
 
@@ -178,10 +178,16 @@ background: linear-gradient(#fefefe, #888888);
     font-weight: bold;
 }
 
-#img_diferenciales{
+.img_diferenciales{
 
      width: 40%;
      
+}
+
+.img_diferenciales:hover{
+
+    opacity: 0.3;
+    transition: 400ms;
 }
 
 .video{
