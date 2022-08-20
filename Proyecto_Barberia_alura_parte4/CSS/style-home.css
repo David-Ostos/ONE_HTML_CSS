@@ -9,7 +9,12 @@ body{
     box-sizing: border-box;
    /* margin-bottom: 10px;*/
 
+}
 
+
+.titulo{
+
+    text-align: center;
 }
 
 .caja{
@@ -50,7 +55,6 @@ nav a:hover{
     color: #c78c19;
     text-decoration: underline;
 }
-
 /*<Header/>*/
 
 /*<main>*/
@@ -81,7 +85,12 @@ main{
     */
 }
 
+.utensilios{
 
+    width: 120px;
+    float: left;/* se utiliza para poder hacer que los elementos que se especifiquen se hacerquen al objeto*/
+    margin: 0 20px 20px 0;
+}
 
 .principal p {
 
@@ -98,32 +107,6 @@ main{
     font-style: italic;
 }
 
-.Diferenciales{
-
-    background: #ffffff;
-    padding: 30px;
-}
-
-.items{
-    font-style: italic;
-}
-
-#dif{
-
-    display: inline-block; /* esta propiedad se utiliza para decirle a la etiqueta que solo ocupe su espacio utilizado*/
-    vertical-align: top;/* esta se utiliza para la aliniacion vertical se le indica que se alinie en top arriba*/
-    width: 30%;
-    margin-right: 15%;
- 
-
-} 
-.utensilios{
-
-    width: 120px;
-    float: left;/* se utiliza para poder hacer que los elementos que se especifiquen se hacerquen al objeto*/
-    margin: 0 20px 20px 0;
-}
-
 .mapa{
 
 padding: 3em 0;
@@ -133,6 +116,33 @@ padding: 3em 0;
     text-align: center;
     margin: 0 0 3em 0 ;
 }
+
+.Diferenciales{
+
+    background: #ffffff;
+    padding: 30px;
+}
+
+#dif{
+
+    display: inline-block; /* esta propiedad se utiliza para decirle a la etiqueta que solo ocupe su espacio utilizado*/
+    vertical-align: top;/* esta se utiliza para la aliniacion vertical se le indica que se alinie en top arriba*/
+    width: 40%;
+    margin-right: 15%;
+}
+
+.contenido-dif{
+
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.items{
+    font-style: italic;
+    line-height: 1.5; /* se utiliza para darle el ancho a la linia proporcial a la font en este caso por que se multiplico por 1.5 es el 50% de la fuente lo que se le sumo a la linea entre texto*/
+}
+
 #img_diferenciales{
 
      width: 40%;
@@ -140,6 +150,7 @@ padding: 3em 0;
 }
 
 .video{
+
 
     width: 50%;
     margin: 1em auto;
@@ -162,3 +173,4 @@ footer{
     margin: 20px;
 }
 /*<footer/>*/
+

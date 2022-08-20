@@ -2,7 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
 #Encabezado{
     background-color: #bbbbbb;
     padding: 20px 0; /* es el espaciador externo*/
@@ -95,13 +94,13 @@ nav a:hover{
 
 .productos h2{
 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .productos:hover h2{
 
-    font-size: 33px;
+    font-size: 28px;
 }
 
 .producto-descripcion{
