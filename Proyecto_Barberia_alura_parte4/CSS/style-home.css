@@ -219,6 +219,7 @@ footer{
 
     nav{
         position: static;
+        right: auto;
     }
 
     #dif, .img_diferenciales{
