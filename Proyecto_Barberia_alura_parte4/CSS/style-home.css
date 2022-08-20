@@ -143,6 +143,11 @@ padding: 3em 0;
     line-height: 1.5; /* se utiliza para darle el ancho a la linia proporcial a la font en este caso por que se multiplico por 1.5 es el 50% de la fuente lo que se le sumo a la linea entre texto*/
 }
 
+.items:nth-child(1){
+
+    font-weight: bold;
+}
+
 #img_diferenciales{
 
      width: 40%;
